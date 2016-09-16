@@ -1,22 +1,14 @@
 var slideIndex = 0;
-showSlides();
+carousel();
 
-function showSlides() {
+function carousel() {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
     }
     slideIndex++;
-    if (slideIndex > slides.length) 
-    {
-        slideIndex = 1
-    }
-    for (i = 0; i < slides.length; i++) 
-    {
-        slides[i].className = slides[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    slides[slideIndex-1].className += " active";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
 }
