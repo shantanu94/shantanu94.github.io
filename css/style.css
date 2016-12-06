@@ -105,6 +105,6 @@ a.linkedin-btn:after { background-color: #0077B5; }
 a.btn-default:hover, a.btn-default:focus { background-color: #FFFFFF; color: #FFFFFF; }
 a.btn-default:hover:after { width: 100%; }
 
-.quote-section { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
+.quote-section { font-family: 'Cardo', serif; font-size: 24px; line-height: 1.35em; margin-bottom: 25px; }
 .quote-section em { font-size: 14px; }
 .quote-section { text-align: center; }
