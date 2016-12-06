@@ -1,7 +1,7 @@
 /*--- GENERAL STYLES ---*/
 body { font-size: 16px; line-height: 1.5em; font-family: 'Quattrocento Sans', sans-serif; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; color: #1a1a1a; }
-.content-section { min-height: 100vh; padding-top: 70px; padding-bottom: 20px; }
+.content-section { min-height: 100vh; padding-top: 20px; padding-bottom: 20px; }
 .content-section h1 { color: #9C9C9C; font-weight: 400; font-size: 30px; display: inline-block; }
 .content-section h1:after { content: ''; display: block; border-bottom: 1px solid #DFDFDF; padding-top: 3px; }
 .content-section .lead { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
@@ -71,10 +71,20 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
 .content-section .thumbnail:after { font-family: 'FontAwesome'; content: '\f121'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
 .content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; }
 
-
+/*--- ABOUT ---*/
 #about{
   color: black;
 }
+
+.about-section { padding-top: 150px; padding-bottom: 20px; text-align: center;}
+.about-section h1 { color: #9C9C9C; font-weight: 400; font-size: 30px; display: inline-block; }
+.about-section h1:after { content: ''; display: block; border-bottom: 1px solid #DFDFDF; padding-top: 3px; }
+.about-section .lead { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
+.about-section .lead em { font-size: 14px; }
+.about-section p em { font-size: 14px;}
+.about-section p mark em { font-size: inherit;}
+
+.profile-picture {max-height: 400px;}
 
 /*--- CONTACT ---*/
 #contact {
