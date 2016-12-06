@@ -1,36 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
+  <meta charset="UTF-8">
   <title>Shantanu Bhardwaj</title>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/video.css">
 </head>
 
 <body>
+  <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-  <div class="img-cover">
-    <div class="w3-content w3-section" style="max-width:1000px">
-      <div class="mySlides w3-animate-right">
-        <img src="img/cleSky.jpg" >
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#home">Shantanu</a>
       </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li><a href="#home" class="scroll">HOME</a></li>
+        <li><a href="#about" class="scroll">ABOUT</a></li>
+        <li><a href="#portfolio" class="scroll">SCREENSHOTS</a></li>
+        <li><a href="#contact" class="scroll">CONTACT</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
 
-      <div class="mySlides w3-animate-right">
-        <img src="img/cle.jpg" >
+
+  <!-- HOME -->
+  <div id="home" class="content-section">
+    <div class="container">
+    </div>
+  </div>
+
+
+  <!-- ABOUT -->
+  <div id="about" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-lg-7">
+          <h1 style="color: black; margin-bottom:50px;">About Me</h1>
+          <blockquote class="lead" style="text-align: center;">
+            <p>Cleveland born and bread.</p>
+            <p>Currently a senior at The Ohio State University pursuing a Computer Science degree with a specialization in software engineering.</p>
+            <code>I like to code</code>
+            <p style="text-align: center;"> <img src="images/cavsLogo.jpg" width="5%" height="5%"> <img src="images/buckeyesLogo.png" width="5%" height="5%"></p>
+            <p></p>
+          </blockquote>
+
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
-    <p class="header"> Shantanu Bhardwaj </p>
-  </div>  
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="javascript.js"></script>
+  <!-- PORTFOLIO -->
+  <div id="portfolio" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 style="color: white;">SCREENSHOTS</h1>
+
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://placeimg.com/768/456/arch/grayscale" alt="Project Dummy">
+            <div class="caption">
+              <h4>User Interface</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://placeimg.com/768/456/nature/grayscale" alt="Project Dummy">
+            <div class="caption">
+              <h4>Profile Page</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://placeimg.com/768/456/people/grayscale" alt="Project Dummy">
+            <div class="caption">
+              <h4>Source Code</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://placeimg.com/768/456/tech/grayscale" alt="Project Dummy">
+            <div class="caption">
+              <h4>Us :)</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="https://placeimg.com/768/456/animals/grayscale" alt="Project Dummy">
+            <div class="caption">
+              <h4>Us again...</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- CONTACT -->
+  <div id="contact" class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 style="color: white;">CONTACT ME</h1>
+        </div>
+      </div>
+      <div style="margin-top:300px;">
+        <div class="row">
+          <div class="col-sm-12">
+          <a class="btn btn-default btn-lg twitter-btn" href="mailto:bhardwaj.35@buckeyemail.osu.edu" role="button"><i class="fa fa-envelope"></i><span>Email</span></a>
+            <a class="btn btn-default btn-lg github-btn" href="https://github.com/shantanu94" role="button" target="_blank"><i class="fa fa-github"></i><span>Github</span></a>
+            <a class="btn btn-default btn-lg linkedin-btn" href="https://linkedin.com/in/shantanu94" role="button" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+      <blockquote class="quote-section">
+        <p>"Our prime purpose in this life is to help others. And if you can't help them, at least don't hurt them." - Dalai Lama</p>
+      </blockquote>
+  </div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
 
 </body>
 </html>
-
