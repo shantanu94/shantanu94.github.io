@@ -43,7 +43,7 @@ img {
 /*--- HOME ---*/
 #home {
   background: url("../images/cle.jpg") no-repeat center center fixed;
-  background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
+  /*background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -105,7 +105,10 @@ img {
 /*--- CONTACT ---*/
 #contact {
   background: url('../images/cleSky2.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
 }
 
 #share{
