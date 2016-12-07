@@ -44,6 +44,10 @@ img {
 #home {
   background: url("../images/cle.jpg") no-repeat center center fixed;
   background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 #home h1 { font-family: 'Advent Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
 #home h1:after { border-bottom: 1px solid #AAA;  }
