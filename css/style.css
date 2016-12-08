@@ -28,14 +28,14 @@ img {
 @media screen and (min-width: 768px) {
   .navbar-default { height: 100px; }
   .navbar-header { width: 100%; }
-  .navbar-header .navbar-brand { height: 70px; padding: 40px 0 0 15px; font-size: 42px; }
+  .navbar-header .navbar-brand { height: 70px; padding: 40px 0 0 15px; font-size: 36px; }
   .navbar-default .navbar-nav>li>a { padding: 0px 20px 9px 0; }
   .navbar-default .navbar-nav>li>a:hover { background-color: transparent; color: #E64B36; }
 }
 
 @media screen and (min-width: 992px) {
   .navbar-default { height: 120px; }
-  .navbar-header .navbar-brand { height: 80px; padding: 45px 0 0 15px; font-size: 48px; }
+  .navbar-header .navbar-brand { height: 80px; padding: 45px 0 0 15px; font-size: 42px; }
   .navbar-default .navbar-nav>li>a { padding: 10px 25px 9px 0; }
 }
 
@@ -44,7 +44,7 @@ img {
 #home {
   background: url("../images/cle.jpg") no-repeat bottom center scroll;
   /*background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;*/
-   display: table;
+  display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
@@ -76,24 +76,6 @@ img {
 }
 
 
-/*--- Projects ---*/
-.projects-section .thumbnail { position: relative; overflow: hidden; cursor: pointer; }
-.projects-section .thumbnail * { transition: all .25s; }
-.projects-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
-.projects-section .thumbnail p { line-height: 24px; }
-.projects-section .thumbnail:hover h4, .content-section .thumbnail:hover p { color: #AFAFAF; }
-.projects-section .thumbnail:hover img { opacity: 0.25;  }
-.projects-section .thumbnail:after { font-family: 'FontAwesome'; content: '\f121'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
-.projects-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; }
-
-.projects-section { padding-top: 120px; padding-bottom: 100px; }
-.projects-section h1 { color: black; font-weight: 400; font-size: 30px; display: inline-block; padding-bottom: 50px; }
-.projects-section h1:after { content: ''; display: block; border-bottom: 1px solid black; padding-top: 3px; }
-.projects-section .lead { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
-.projects-section .lead em { font-size: 14px; }
-.projects-section p em { font-size: 14px;}
-.projects-section p mark em { font-size: inherit;}
-
 /*--- ABOUT ---*/
 #about{
   color: black;
@@ -109,9 +91,33 @@ img {
 
 .profile-picture {max-height: 400px;}
 
+
+/*--- Projects ---*/
+.projects-section .thumbnail { position: relative; overflow: hidden; cursor: pointer; }
+.projects-section .thumbnail * { transition: all .25s; }
+.projects-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
+.projects-section .thumbnail p { line-height: 24px; }
+.projects-section .thumbnail:hover h4, .content-section .thumbnail:hover p { color: #AFAFAF; }
+.projects-section .thumbnail:hover img { opacity: 0.25;  }
+.projects-section .thumbnail:after { font-family: 'FontAwesome'; content: '\f05a'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
+.projects-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; }
+
+.projects-section { padding-top: 150px; padding-bottom: 100px; }
+.projects-section h1 { color: black; font-weight: 400; font-size: 30px; display: inline-block; padding-bottom: 50px; }
+.projects-section h1:after { content: ''; display: block; border-bottom: 1px solid black; padding-top: 3px; }
+.projects-section .lead { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
+.projects-section .lead em { font-size: 14px; }
+.projects-section p em { font-size: 14px;}
+.projects-section p mark em { font-size: inherit;}
+
+
 /*--- CONTACT ---*/
 #contact {
-  background: url('../images/cleSky2.jpg') no-repeat top center fixed;
+  background: url("../images/cleSky2.jpg") no-repeat center center scroll;
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -123,7 +129,8 @@ img {
 }
 
 .contact-section {
-  min-height: 70vh; padding-top: 25px; padding-bottom: 20px;
+  padding-top: 50px;
+  /*min-height: 70vh; padding-top: 25px; padding-bottom: 20px;*/
 }
 .contact-section img.pull-right {
   border:1px solid #DFDFDF; margin-top: 140px;
