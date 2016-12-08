@@ -42,8 +42,15 @@ img {
 
 /*--- HOME ---*/
 #home {
-  background: url("../images/cle.jpg") no-repeat center center fixed;
+  background: url("../images/cle.jpg") no-repeat bottom center scroll;
   /*background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;*/
+   display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
