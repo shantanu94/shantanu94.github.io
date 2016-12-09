@@ -101,7 +101,7 @@ img {
 
 
 /*--- Projects ---*/
-.projects-section .thumbnail { position: relative; overflow: hidden; cursor: pointer; }
+.projects-section .thumbnail { position: relative; overflow: hidden; cursor: pointer;}
 .projects-section .thumbnail * { transition: all .25s; }
 .projects-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
 .projects-section .thumbnail p { line-height: 24px; }
@@ -117,6 +117,8 @@ img {
 .projects-section .lead em { font-size: 14px; }
 .projects-section p em { font-size: 14px;}
 .projects-section p mark em { font-size: inherit;}
+
+.img-box { height: 25vh; }
 
 
 /*--- CONTACT ---*/
